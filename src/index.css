@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family:'Josefin Sans', 'Arial Narrow', 'Arial', sans-serif;
+    
+    
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    background-color:#f4b400;
+    height:90px;
+    margin: 0 10px 0 10px;
+    
+}
+
+.logoIamge{
+    width:120px;
+    height:90px;
+    
+}
+
+.header-text{
+    padding-top:30px;
+    font-size: 30px;
+    padding-left: 10px;
+    color:#fff;
+    font-family: 'BioRhyme', serif;;
+    
+}
+
+.main_note{
+    margin-top:10px;
+    width:400px;
+    height:150px;
+    justify-content: center;
+    align-items:center;
+    margin-left:30%;
+    border:1px solid;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+input{
+    margin:15px 0 10px 15px;
+    outline:none;
+    border:none;
+    font-weight:bold;
+    font-size: 18px;
+    /* border-bottom: 2px red solid; */
+}
+textarea{
+    margin:10px 0 10px 15px;
+    outline:none;
+    border:none;
+    width:319px;
+    height:85px;
+    font-size: medium;
+
+    
+}
+
+.plus_sign{
+    min-width: 40px;
+    min-height: 35px;
+    background-color:#fff !important;
+    color: goldenrod !important;
+    border-radius: 50% !important;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    margin-left:5px
+
+
+}
+.note{
+    width:200px;
+    height:200px;
+    margin-left:20px;
+    margin-top:30px;
+    border-radius: 15px;
+    padding-top:15px;
+    box-shadow: 5px 5px 15px -2px rgba(0,0,0,0.5);
+    float:left
+    
+}
+.deleteicon{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.3);
+    color: goldenrod;
+    justify-content:right;
+    margin-left:150px;
+    
+}
+.deleteicon:hover{
+    background-color: #f4b400;
+}
